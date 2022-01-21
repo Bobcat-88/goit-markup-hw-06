@@ -69,11 +69,10 @@
             <div class="container">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <button data-modal-open type="button" class="button">Заказать услугу</button>
+
+
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
-                        <p>
-
-                        </p>
                         <button class="modal-close" data-modal-close>
                             <svg width="18" height="18">
                                 <use href="./images/icons.svg#icon-close">
@@ -81,6 +80,65 @@
                                 </use>
                             </svg>
                         </button>
+                        <p class="madal-title">Оставьте свои данные, мы вам перезвоним</p>
+
+                        <form class="madal-form">
+
+                            <div class="form-field">
+                                <label for="user-name">Имя
+                                    <input class="madal-form-input" type="text" name="user-name" autofocus>
+
+                                    <svg class="madal-icon" width="18" height="18">
+                                        <use href="images/icons.svg#icon-person">
+                                        </use>
+                                    </svg>
+                                </label>
+                            </div>
+
+                            <div class="form-field">
+                                <label>Телефон
+                                    <input class="madal-form-input" type="tel" name="phone-number">
+
+                                    <svg class="madal-icon" width="18" height="18">
+                                        <use href="images/icons.svg#icon-phone">
+                                        </use>
+                                    </svg>
+                                </label>
+                            </div>
+
+                            <div class="form-field">
+                                <label>Почта
+                                    <input class="madal-form-input" type="email">
+                                    <svg class="madal-icon" width="18" height="18">
+                                        <use href="images/icons.svg#icon-email">
+                                        </use>
+                                    </svg>
+                                </label>
+                            </div>
+
+                            <div class="form-field">
+                                <label>
+                                    <textarea class=" madal-form-input form-input-text" name="coments"
+                                        placeholder="Введите текст"></textarea>
+                                </label>
+                            </div>
+
+                            <div class="form-field">
+                                <input id="contract" type="checkbox" name="сontract"
+                                    class="contract-check visually-hiden" />
+                                <label for="contract" class="сontract-terms">
+
+                                    Соглашаюсь с рассылкой и принимаю&#160;<a class="form-link" href="#"> Условия
+                                        договора</a>
+                                </label>
+                            </div>
+
+                            <button class="madal-form-button" type="submit">
+                                Отправить
+                            </button>
+
+                        </form>
+
                     </div>
                 </div>
             </div>
@@ -522,6 +580,29 @@
 
                 </ul>
             </div>
+
+
+            <div class="footer-subscraber-block">
+                <h2 class="footer-form-title">подпишитесь на рассылку</h2>
+
+                <form class="footer-form">
+                    <label for="" class="form-label"></label>
+                    <input id="footer-input" type="email" placeholder="E-mail" class="footer-form-input">
+
+                    <button type="submit" class="footer-form-button">
+                        Подписаться
+                        <svg class="footer-form-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send">
+                            </use>
+                        </svg>
+                    </button>
+
+
+
+
+                </form>
+            </div>
+
         </div>
 
     </footer>
