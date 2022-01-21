@@ -448,8 +448,7 @@ img {
 
 .form-link:hover {
   color: #188ce8;
-  /* інтерактив на ховер */
-  font-style: italic;
+
   transition: color var(--cubic-bezier);
 }
 
