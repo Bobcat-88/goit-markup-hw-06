@@ -372,16 +372,19 @@ img {
 .madal-icon {
   position: absolute;
   left: 12px;
-  top: 26px;
-  width: 18px;
-  height: 18px;
+  top: 38px;
+
   fill: var(--title-site-color);
   transition: fill var(--cubic-bezier);
+
+  transform: translateY(-50%);
 }
 
 .madal-form-input {
+  /* position: relative; */
   width: 100%;
   height: 40px;
+  margin-top: 4px;
   padding-left: 42px;
   margin-bottom: 10px;
   border-radius: 4px;
@@ -389,6 +392,9 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline-style: none;
   transition: border-color var(--cubic-bezier);
+}
+.madal-form-input:last-child() {
+  margin-bottom: 10px;
 }
 
 .madal-form-input:focus {
